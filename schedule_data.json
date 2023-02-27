@@ -1,0 +1,94 @@
+{
+
+    "sdata":[
+     {
+        "img" : "assets/images/10.jpg",
+        "sname": "Dealing with Difficult People",
+        "name" : "Gary Armstrong",
+        "date":"12-14 Jan 2022",
+        "location":"Mountain Resort, Phoenix, USA"
+     },
+     
+     {
+        "img" : "assets/images/11.jpg",
+        "sname": "Crop Insurance Conference",
+        "name" : "Amanda Hudson",
+        "date":"12-14 Jan 2022",
+        "location":"Mountain Resort, Phoenix, USA"
+     },
+     
+     {
+        "img" : "assets/images/12.jpg",
+        "sname": "Capdm Executive Conference",
+        "name" : "Martha Burke",
+        "date":"12-14 Jan 2022",
+        "location":"Mountain Resort, Phoenix, USA"
+     },
+
+     
+     {
+        "img" : " assets/images/13.jpg",
+        "sname": "Street Food Convention",
+        "name" : "Jeffrey Morales",
+        "date":"12-14 Jan 2022",
+        "location":"Mountain Resort, Phoenix, USA"
+     }
+    
+
+    ],
+    "sdata2":[
+    
+        
+        {
+           "img" : "assets/images/11.jpg",
+           "sname": "Crop Insurance Conference",
+           "name" : "Amanda Hudson",
+           "date":"12-14 Jan 2022",
+           "location":"Mountain Resort, Phoenix, USA"
+        },
+        
+        {
+           "img" : "assets/images/12.jpg",
+           "sname": "Capdm Executive Conference",
+           "name" : "Martha Burke",
+           "date":"12-14 Jan 2022",
+           "location":"Mountain Resort, Phoenix, USA"
+        },
+   
+        
+        {
+           "img" : " assets/images/13.jpg",
+           "sname": "Street Food Convention",
+           "name" : "Jeffrey Morales",
+           "date":"12-14 Jan 2022",
+           "location":"Mountain Resort, Phoenix, USA"
+        }
+       
+   
+       ],
+       "sdata3":[
+    
+        
+    
+        
+        {
+           "img" : "assets/images/12.jpg",
+           "sname": "Capdm Executive Conference",
+           "name" : "Martha Burke",
+           "date":"12-14 Jan 2022",
+           "location":"Mountain Resort, Phoenix, USA"
+        },
+   
+        
+        {
+           "img" : " assets/images/13.jpg",
+           "sname": "Street Food Convention",
+           "name" : "Jeffrey Morales",
+           "date":"12-14 Jan 2022",
+           "location":"Mountain Resort, Phoenix, USA"
+        }
+       
+   
+       ]
+       
+}

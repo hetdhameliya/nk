@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<speakers>
+    <speaker imageurl="assets/images/4.jpg">
+
+        <name>Albert Barnes</name>
+        <position>Founder</position>
+     
+    </speaker>
+
+    <speaker imageurl="assets/images/5.jpg">
+
+        <name>Patricia Stanley</name>
+        <position>Product Lead</position>
+     
+    </speaker>
+
+
+
+    <speaker imageurl="assets/images/6.jpg">
+
+        <name>Evelyn Stone</name>
+        <position>Photographer</position>
+     
+    </speaker>
+
+
+    <speaker imageurl="assets/images/7.jpg">
+
+        <name>Evelyn Stone1</name>
+        <position>Photographer</position>
+     
+    </speaker>
+
+
+
+    <speaker imageurl="assets/images/8.jpg">
+
+        <name>Susan Hopkins</name>
+        <position>UX Manager</position>
+     
+    </speaker>
+
+    <speaker imageurl="assets/images/9.jpg">
+
+        <name>Michael Fowler</name>
+        <position>Product Design</position>
+     
+    </speaker>
+
+   
+</speakers>

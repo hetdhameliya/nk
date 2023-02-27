@@ -1,0 +1,1577 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar css start */
+.navbar {
+    position: absolute;
+    opacity: 0.8;
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .logo .logo_img{
+    width: 130px;
+    display: flex;
+}
+
+#menu{
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+#menu .item:hover>a, .navbar_moblie .item:hover>a{
+    color: #A3337E;
+}
+
+#menu ul{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu .item_list_dropdown, .navbar_moblie .item_list_dropdown{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+}
+#menu li:hover .item_list_dropdown
+{
+    display: block;
+}
+
+#menu .item_list_dropdown a{
+    color: black;
+}
+
+#menu .item_list_dropdown a:hover{
+    color: #A3337E;
+}
+
+.navbar .ticket .ticket_btn{
+    border-radius: 30px;
+    background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
+    color: white;
+    padding: 15px 25px;
+    font-size: 15px;
+    transition: 1s;
+
+    font-weight: 500;
+    border: 0;
+}
+
+.navbar .ticket .ticket_btn:hover{
+    background: white;;
+    color: black;
+}
+
+.navbar_moblie{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 20%;
+}
+.navbar_moblie li{
+    list-style: none;
+    background-color: lightgrey;
+    padding: 15px;
+}
+.item>a{
+    text-decoration: none;
+    color: black; 
+}
+
+.item_list_dropdown>a{
+    text-decoration: none;
+    color: black;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.navbar_moblie li:hover .item_list_dropdown
+{
+    display: block;
+}
+
+.item_list_dropdown ul{
+    display: block; 
+    padding: 0;
+}
+.item_list_dropdown li>a{
+    color: black;
+    text-decoration: none;
+}
+
+/* navbar css end */
+
+
+/* hero_section css start */
+.disc{
+    display: grid;
+    width: auto;
+    justify-content: end;
+}
+
+.disc .text1 {
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 90px;
+    text-transform: uppercase;
+    display: block;
+    margin-right: 50px;
+    color: black;
+} 
+
+.disc .text2{
+    text-align: right;
+    color: #ffffff;
+    margin-bottom: 0;
+    line-height: 1.25;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: black;
+    padding-right: 20px;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.disc .text3{
+    padding: 0px 0px 120px 0;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 90px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    color: white;
+}
+
+.disc .text3>.info{
+    position: relative;
+    height: 50px;
+    line-height: 46px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    display: inline-block;
+    padding: 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 30px 30px;
+    background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
+    transition: 3s;
+    border-radius: 40px;
+    border: 0;
+    color: black;
+}
+
+.disc .text3 .info:hover{
+    background: white;
+    color: black;
+}
+
+.image{
+    background-image: url(../images/18.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+/* hero_section css end */
+
+/* conforance_details css start */
+
+.conforance_details .background{
+    background-color: #151852;
+    display: flex;
+    padding: 50px 0;
+}
+
+.background .about{
+    width: 50%;
+    padding: 0 0 0 70px;
+}
+
+.background .about .sub_heading{
+    font-weight: 700;
+    font-size: 18px;
+    color: deeppink;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+    letter-spacing: 2px;
+}
+
+.conforance_details .intrest{
+    line-height: 45px;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    padding: 0 40px;
+    margin: 70px 20px;
+    background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
+    transition: 3s;
+    border-radius: 40px;
+    border: 0;
+}
+
+.background .intrest:hover{
+    background: white;
+    color: black;
+}
+
+.background .about .main_heading{
+    color: white;
+}
+
+.background .about .para{
+    color: white;
+    font-size: 20px;
+}
+
+.conforance_image{
+    width: 50%;
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.conforance_details .time{
+    background-color: #151852;
+}
+
+.conforance_details .time .date .timing{
+    color: deeppink;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+    letter-spacing: 2px;
+}
+
+.conforance_details .time .date .slogan{
+    color: white;
+    font-size: 23px;
+}
+
+.conforance_details .time{
+    display: flex;
+}
+
+.conforance_details .time .date{
+    width: 20%;
+    margin: 0 65px;
+}
+
+.conforance_details .time .month{
+    width: 100%;
+    display: flex;
+    padding: 0px 25px;
+    flex-wrap: wrap;
+}
+.month .squre1{
+    height: 130px;
+    width: 130px;
+    background-color: #151852;
+    border: 1px solid gray;
+    margin: 10px 30px;
+    color: white;
+    opacity: 0.8;
+}
+
+.month p{
+    font-size: 62px;
+    font-weight: 600;
+    padding: 10px 5px;
+    margin: 0 25px;
+    text-align: center;
+    line-height: 1;
+}
+
+.month span{
+    font-size: 18px;
+    color: #5d5e8d;
+    font-weight: 500;
+    display: block;
+    margin: 0px 26px 20px 30px;
+    font-size: 20px;
+}
+
+/* conforance_details css end */
+
+/* speaker_detail css start */
+
+.speaking .speakers{
+    background: linear-gradient(to right bottom, #5356cb, #7a50c4, #974abb, #af44b0, #c23fa4);
+    padding: 90px 100px;
+    text-align: center;
+} 
+
+.speaking .speakers h6{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.speaking .speakers h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.speaking .speakers .main_photo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 50px 0;
+    justify-content: center;
+}
+
+.speaking .speakers .main_photo .speaker1{
+    position: relative;
+    width: 30%;
+}
+
+.speaking .speakers .main_photo img{
+    border-radius: 15px;
+    opacity: 0.9;
+    width: 100%;
+    display: block;
+}
+
+.speaking .speakers .name{
+    position: absolute;  
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6923144257703081) 0%, rgba(255,255,255,0) 30%);
+}
+
+.speaking .speakers .name .name1{
+    padding: 10px;
+    font-weight: 600;   
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.speaking .speakers .name .position{
+    color: deeppink;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+.speaking .speakers button{
+    background-color: #AE42AB;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 30px;
+    border-radius: 90px;
+    font-weight: 600;
+}
+
+.speaking .speakers button:hover{
+    background-color: #DE42B1;
+    border: none;
+}
+
+/* speaker_detail css end */
+
+
+
+/* ticket_pricing css start */
+
+.ticket_pricing{
+    background-image: url(../images/19.jpg);
+    background-repeat: no-repeat;
+    background-size: 1343px 1000px;
+    background-attachment: fixed;
+}
+
+ .background_color{
+    background: linear-gradient(135deg, #5059dddf 0%, #df42b0df 100%);
+    background-size: 1343px 1000px;
+    padding: 70px;
+}
+
+.ticket_pricing .head{
+    text-align: center;
+    color: white;
+    padding: 0 0 30px 0; 
+}
+
+.ticket_pricing .pass{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ticket_pricing .background_color .pass .pass1{
+    width: 320px;
+    border-color: white;
+    height: 570px;
+    background-color: white;
+    text-align: center !important;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.ticket_pricing .background_color .pass .pass1:hover{
+    box-shadow: 10px 10px 54px;
+    width: 450px;
+    height: 620px;
+    transition: 2s; 
+}
+
+.ticket_pricing .pass .pass1 .ticket_plan{
+    background-color: #df42b1;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    line-height: 1; 
+    height: 40px;
+    margin: 0 100px 25px 100px;
+    font-size: 15px;
+}
+
+.ticket_pricing .pass .pass1 .ticket_icon{
+    max-height: 100px;
+    display: block;
+}
+
+.ticket_pricing .pass .pass1 .ticket_price{
+    font-size: 60px;
+    color: #111343;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.ticket_pricing .pass .pass1 .ticket_price span{
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    top: -20px;
+}
+
+.ticket_pricing .pass .pass1 .ticket_button button{
+    position: relative;
+    z-index: 1;
+    height: 46px;
+    line-height: 46px;
+    font-weight: 500;
+    border: none;
+    padding: 0 70px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    border-radius: 23px;
+    transition: 3s;
+    background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
+}
+
+.ticket_pricing .pass .pass1 .ticket_button button:hover{
+    background: white;
+    color: black;
+    border: none;
+}
+
+.ticket_pricing .pass .pass1 .ticket-pricing-table-details{
+    color: #5D5E8D;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding: 30px 0;
+}
+
+.ticket_pricing .pass .pass1 .ticket-pricing-table-details span{
+    color: deeppink;
+    font-weight: 700;
+}
+
+/* ticket_pricing css end */
+
+/* contact_us css start */
+.contact_us{
+    background-color: rgb(21,24,83);
+    padding: 100px 50px 80px 50px;
+}
+
+.contact_us .main_contact{
+    display: flex;
+    margin: 40px 30px 0;
+    justify-content: center;
+}
+.contact_us .row_head{
+    text-align: center;
+    color: white;
+    padding: 0 0 30px 0;
+}
+
+.contact_us .row_head p{
+    color: #df42b1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.contact_us .row_head h4{
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 17px 0 0px;
+}
+
+.main_contact .full_address{
+    width: 33.33%;
+    padding: 0 0 0 60px;
+}
+
+.contact_us .main_contact .full_address .add>p{
+    color: #9293bc;
+    margin-bottom: 7px;
+}
+
+.contact_us .main_contact .full_address .add>h6{
+    font-size: 19px;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin: 0 0 25px;
+}
+
+.main_contact .contact_form{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #21245C;
+    border-radius: 10px;
+    padding: 30px;
+    width: 65%;
+}
+
+.name_div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.your_name{
+    width: 48%;
+}
+
+.message_div{
+    display: flow-root;
+    width: 100%;
+}
+
+.text{
+    border-bottom: 1px solid #dbdcf1;
+    color: #9293bc;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    border-radius: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+}
+
+.contact_form .row_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_form .row_flex .text{
+    height: 60px;
+}
+
+.text:focus, .text:active{
+    background-color: transparent;
+    border-bottom: 1px solid #9293bc;
+    box-shadow: none;
+    color: #9293bc;
+}
+
+.contact_form .row_flex .send_button button{
+    position: relative;
+    z-index: 1;
+    height: 46px;
+    line-height: 46px;
+    font-size: 13px;
+    padding: 0px 30px;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    border-radius: 23px;
+    transition: 3s;
+    margin: 20px 0 0;
+    background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
+}
+
+.contact_form .row_flex .send_button button:hover{
+    background: white;
+    color: black;
+    border: none;
+}
+/* contact_us css end */
+
+/* footer css start */
+.main{
+    background-color: rgb(17,19,67);
+    padding-top: 60px;
+}
+
+.last_sections{
+    max-width: 23%;
+    width: 100%;
+}
+
+.main_footer_area .last_section .row1{
+    display: flex;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.last_section .row1 .col-12{
+    padding: 0 30px;
+}
+
+.last_section .row1 a img{
+    height: 20px;
+    width: 130px;
+    padding-top: 30px;
+    display: block;
+    margin-left: 18px;
+}
+
+.last_section .row1 p{
+    color: #9293bc;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.last_section .social_info a{
+    height: 34px;
+    width: 34px;
+    border: 1px solid #3d3e66;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.last_section .row1 .widget-title{
+    color: white;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.last_section .row1 .footer-contact-info p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #9293bc;
+    letter-spacing: 0.5px;
+}
+
+.last_section .row1 .footer-contact-info i{
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.last_section .row1 .footer-nav{
+    padding-left: 0;
+}
+
+.last_section .row1 .footer-nav>li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #9293bc;
+}
+
+.last_section .row1 .footer-nav>li a{
+    color: #9293bc;
+    font-size: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-decoration: none ;
+}
+
+.last_section .row1 .footer-nav>li a:hover{
+    color: white;
+}
+
+.last_section .row1 .img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.last_section .row1 .img img{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.img1{
+    position: relative;
+    transition-duration: 300ms;
+}
+
+.hover1{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #5059dd9f 0%, #df42b0a1 100%);
+    position: absolute;
+    display: none;
+}
+.img1:hover .hover1{
+    display: block;
+}
+
+.copywrite-content{
+    border-top: 1px solid #414269;
+    padding: 20px 0;
+}
+
+.copywrite-content .row .copywrite p{
+    font-size: 17px;
+    color: #9293bc;
+    padding-left: 30px;
+}
+
+.copywrite-content .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu .nav li>a{
+    color: #9293bc;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+    text-decoration: double;
+}
+
+.footer-menu .nav {
+    display: flow-root;
+    padding-right: 30px;
+}
+
+.footer-menu .nav li>a:hover{
+    color: white;
+}
+
+.footer-menu .nav li{
+    list-style: none;
+}
+/* footer css end */
+
+@media screen and (max-width:1200px){
+    .title .head{
+        font-size: 15px;
+    }    
+    .title .body span, .title .body, .time_place{
+        font-size: 14px;
+    }
+    .event_img img{
+        width: 90px;
+    }
+    .ticket_pricing .background_color .pass .pass1{
+        margin: 0 10px;
+    }
+    .contact_us .main_contact{
+        justify-content: space-between;
+    }
+    .main_contact .full_address{
+        padding: 0%;
+    }
+    .last_section .row11 .col-12{
+        padding: 0 20px;
+    }
+    .last_section .row11 .img img{
+        height: 50px;
+        width: 50px;
+    }
+    .navbar .logo .logo_img{
+        width: 90px;
+    }
+    #menu ul{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .disc .text1{
+        font-size: 60px;
+    }
+    .conforance_details .background{
+        display: block;
+        padding: 100px 100px;
+        text-align: left;
+    }
+    .background .about{
+        width: 100%;    
+    }
+    .background .about .sub_heading{
+        margin-bottom: 25px;
+    }
+    .conforance_image, .conforance_details .time .date{
+        width: 100%;
+        background-position: center;
+    }
+    .conforance_details .time{
+        display: block;
+        padding: 50px 70px 50px 90px;
+    }
+    .conforance_details .time .month{
+        display: flex;
+        padding: 0;
+        justify-content: end;
+    }
+    .month .squre1{
+        margin: 5px 15px;
+    }
+    .speaking .speakers .main_photo{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .speaking .speakers .main_photo .speaker1{
+        width: 75%;
+    }
+    .speaking .speakers .name{
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+    .schedule .squre .squre1, .schedule .squre .squre2{
+        height: 80px;
+        width: 190px;
+    }
+    .schedule .squre h4{
+        letter-spacing: 1px;
+    }
+    .event .event1{
+        display: flow-root;
+        padding: 30px;
+    }
+    .title .head, .title .body, .title .body span{
+        text-align: left;
+        font-size: 19px;
+    }
+    .event .event1 .img_title{
+        display: flex;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .title{
+        margin-left: 70px;
+    }
+    .time_place{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+    .view_button .info{
+        width: 100%;
+    }
+    .event_img img{
+        width: 110px;
+    }
+    .ticket_pricing .pass{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .ticket_pricing .background_color .pass .pass1, .ticket_pricing .pass .pass1 .ticket_button button{
+        width: 70%;
+    }
+    .ticket_pricing .pass .pass1 .ticket_plan, .ticket_pricing .pass .pass1 .ticket-pricing-table-details{
+        font-size: 20px;
+    }
+    .ticket_pricing .background_color .pass .pass1{
+        height: 600px;
+    }
+    .ticket_pricing{
+        background-size: 2000px 4000px;
+    }
+    .main_footer_area .last_section .row1{
+        gap: 20px;
+    }
+    .last_sections{
+        width: 100%;
+        max-width: 35%;
+    }
+    .last_section .row1 .img img, .hover1{
+        height: 90px;
+        width: 90px;
+    }
+    .last_section .row1 .img{
+        gap: 15px;
+    }
+    .copywrite-content .row{
+        display: block;
+        text-align: center;
+    }
+    .copywrite-content .row .copywrite p{
+        font-size: 14px;
+    }
+    .footer-menu .nav li>a{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .navbar_moblie{
+        display: contents;
+    }
+    .navbar{
+        display: block;
+    }
+    .nev_menu, .ticket{
+        display: none;
+    }
+    .navbar .logo .logo_img{
+        width: 80px;
+        padding: 10px 15px;
+    }
+    .disc .text1{
+        font-size: 30px;
+    }
+    .disc .text2{
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .disc .text3{
+        margin-right: 0;
+    }
+    .background .about{
+        padding: 0;
+    }
+    .conforance_details .background{
+        padding: 80px 20px;
+    }
+    .conforance_details .time{
+        padding: 10px;
+    }
+    .conforance_details .time .date{
+        margin: 0;
+    }
+    .conforance_details .time .date .slogan{
+        font-size: 19px;
+    }
+    .conforance_details .time .date .timing{
+        font-size: 16px;
+    }
+    .month .squre1{
+        height: 65px;
+        width: 65px;
+    }
+    .conforance_details .time .month{
+        flex-wrap: nowrap;
+        padding-bottom: 30px;
+    }
+    .month p{
+        font-size: 30px;
+        margin: 0;
+        padding-top: 8px;
+    }
+    .month span{
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+    }
+    .speaking .speakers .main_photo .speaker1{
+        width: 100%;
+    }
+    .speaking .speakers .name{
+        font-size: 20px;
+    }
+    .speaking .speakers{
+        padding: 20px;
+    }
+    .schedule .squre .squre1, .schedule .squre .squre2{
+        height: 80px;
+        width: 150px;
+    }
+    .schedule .squre h4, .schedule .squre p{
+        font-size: 15px;
+    }
+    .event{
+        margin: 0;
+    }
+    .title .head, .title .body, .title .body span{
+        font-size: 15px;
+    }
+    .event_img img{
+        width: 80px;
+    }
+    .img_title .title{
+        padding: 0;
+        margin: 10px;
+    }
+    .schedule .dwnld_pdf button{
+        font-size: 14px;
+        display: flexbox;
+    }
+    .ticket_pricing .pass .pass1 .ticket_plan, .ticket_pricing .pass .pass1 .ticket-pricing-table-details{
+        font-size: 13px;
+        margin: 0 50px;
+    }
+    .ticket_pricing .background_color .pass .pass1, .ticket_pricing .pass .pass1 .ticket_button button{
+        width: 90%;
+    }
+    .ticket_pricing .background_color .pass .pass1{
+        height: 500px;
+    }
+    .ticket_pricing .background_color .pass .pass1:hover{
+        height: 530px;
+    }
+    .contact_us .row_head h4{
+        font-size: 30px;
+    }
+    .contact_us .main_contact{
+        display: block;
+    }
+    .contact_us .main_contact .full_address .add > h6{
+        margin: 0;
+        font-size: 15px;
+    }
+    .contact_us{
+        padding: 0;
+    }
+    .contact_us .main_contact{
+        margin: 30px 20px 0;
+    }
+    .main_contact .full_address{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .main_contact .contact_form{
+        width: 80%;
+    }
+    .main_footer_area .last_section .row1{
+        display: block;
+        padding: 0 20px;
+    }
+    .last_sections{
+        width: 100%;
+        max-width: 90%
+    }
+}
+
+
+/* about_us css start */
+
+.about_us .main_page{
+    background-image: url(../images/20.jpg);
+   background-size: 1500px 600px;
+   background-repeat: no-repeat;
+   height: 450px !important;
+   position: relative;
+   width: 100%;
+   background-attachment: fixed;
+}
+
+.about_us .heading, .schedule .heading{
+   margin: 0;
+   color: white;
+   position: absolute;
+   top: 0;
+   left: 0;
+   font-size: 23px;
+   height: 450px !important;
+   width: 100%;
+   background: linear-gradient(135deg, #5059dddf 0%, #df42b0df 100%);
+}
+
+.about_us .heading>h1, .schedule .heading>h1{
+   position: absolute;
+   top: 40%;
+   left: 8%;
+}
+
+.about_us .heading>h5, .schedule .heading>h5{
+   position: absolute;
+   top: 50%;
+   left: 8%;
+}
+
+.about_us .heading a, .schedule .heading a{
+   text-decoration: none;
+   color: white
+}
+
+.about_us .heading a:hover, .schedule .heading a:hover{
+   color: deeppink;
+}
+
+.event_box{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+
+.offer_box{
+   width: 250px;
+   border: 1px solid seashell;
+   height: 350px;
+   background-color: whitesmoke;
+   text-align: center !important;
+   border-radius: 10px;
+   opacity: 1;
+}
+
+.icon{
+   padding: 40px 0;
+   border-radius: 50%;
+   height: 30px;
+   width: 110px;
+   background: rgb(110,84,211);
+   margin: 0 auto;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img{
+   background: rgb(110,84,211);
+   height: 50px;
+   width: 50px;
+}
+
+.offer{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.offer_box:hover{
+   background: rgb(110,84,211);
+   transition: 1s;
+}
+
+.offer_box:hover .introduction p, .offer_box:hover .introduction h3{
+   color: white;
+}
+
+.introduction{
+   padding-top: 30px;
+}
+
+.introduction p{
+   font-size: 17px;
+   color: #3d3e66;
+   padding: 0 15px;
+}
+
+.introduction h3{
+  margin: 0;
+  color: #21245C;
+}
+
+.offer_head{
+    text-align: center;
+}
+
+.offer_head .h6{
+    color: #df42b1;
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.offer_head .h1{
+    color: #111343;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+/* about_us css end */
+
+/* schedule_plan css start */
+
+.schedule .main_page{
+    background-image: url(../images/27.jpg);
+   background-size: 1500px 600px;
+   background-repeat: no-repeat;
+   height: 450px !important;
+   position: relative;
+   width: 100%;
+   background-attachment: fixed;
+}
+
+.schedule{
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.schedule .squre{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.squre2{
+    height: 85px;
+    width: 200px;
+    background-color: rgb(31,35,113);
+    border: 1px solid rgb(93,94,141);
+    cursor: pointer;
+}
+
+.schedule .squre h4{
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.schedule .squre p{
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.event{
+    margin: 0 70px;
+}
+
+.event .event1{
+    margin: 30px 50px;
+    border: 1px  solid grey;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding: 16px 0;
+    justify-content: space-around;
+}
+
+.event .event1:hover{
+    background-color: whitesmoke;
+    border-color: deeppink;
+}
+
+.event_img img{
+    border-radius: 50%;
+    width: 98px;
+}
+
+.event .event1 .img_title{
+    display: flex;
+    align-items: center;
+}
+
+.img_title .title{
+    padding: 30px;
+}
+
+.title .head{
+    color: rgb(31,35,113);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.title .body{
+    color: grey;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 470;
+}
+
+.title .body span{
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.time_place{
+    color: black;
+    font-size: 18px;
+    font-weight:400;
+}
+
+.time_place p{
+    margin: 0;
+}
+
+.view_button .info{
+    position: relative;
+    line-height: 46px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    display: inline-block;
+    padding: 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: white;
+    background: linear-gradient(135deg, #505add 0%, #df42b1 100%);
+    transition: 3s;
+    border-radius: 40px;
+    border: 0;
+}
+
+.view_button .info:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.schedule .dwnld_pdf button{
+    position: relative;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid deeppink;
+    display: inline-block;
+    padding: 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: white;
+    background-color: rgb(21,24,83);
+    transition: 3s;
+    border-radius: 40px;
+    left: 40%;
+    top: 40px;
+}
+
+.schedule .dwnld_pdf button:hover{
+    background: linear-gradient(135deg, #505add 0%, #df42b1 100%);
+    border: 0;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.squre2.active{
+    height: 85px;
+    width: 200px;
+    background-color: rgb(93,94,141);
+    border: 2px solid rgb(93,94,141);
+}
+/* schedule_plan css end */
+
+
+/* tickets css start */
+.tickets .main_page{
+    background-image: url(../images/28.jpg);
+   background-size: 1500px 600px;
+   background-repeat: no-repeat;
+   height: 450px !important;
+   position: relative;
+   width: 100%;
+   background-attachment: fixed;
+}
+
+.tickets .heading, .schedule .heading{
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 23px;
+    height: 450px !important;
+    width: 100%;
+    background: linear-gradient(135deg, #5059dddf 0%, #df42b0df 100%);
+ }
+ 
+ .tickets .heading>h1, .schedule .heading>h1{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+ }
+ 
+ .tickets .heading>h5, .schedule .heading>h5{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+ }
+ 
+ .tickets .heading a, .schedule .heading a{
+    text-decoration: none;
+    color: white
+ }
+ 
+ .tickets .heading a:hover, .schedule .heading a:hover{
+    color: deeppink;
+ }
+
+ .pay_ticket{
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .payment{
+     background: gainsboro;
+     padding: 5% 0;
+ }
+
+ .payment_head p{
+     color: black;
+     font-size: 30px;
+     text-align: center;
+     margin: 0;
+ }
+
+ .form-title{
+    font-weight: 900;
+    color: #333333;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-transform: uppercase;
+ }
+
+  .form-item{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 5px;
+ }
+
+  .form-item input{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-weight: 700;
+    padding: 0px 25px;
+    background-color: #f7f7f7;
+    border: 1px solid #f0f0f0;
+ }
+
+ .cradit-card-select{
+    width: 112%;
+    height: 100%;
+    font-weight: 700;
+    padding: 0px 20px;
+    border-radius: 3px;
+    color: #333333;
+    border: 1px solid #f0f0f0;
+ }
+
+ .title-text{
+    font-weight: 700;
+    margin-bottom: 19px;
+    font-size: 18px;
+ }
+
+ .month-select,.year-select{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-weight: 700;
+    padding: 0px 20px;
+    border-radius: 3px;
+    color: #333333;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #f0f0f0;
+ }
+
+ .expired-date-form ul{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: table;
+ }
+
+ .expired-date-form li{
+    width: 32.4%;
+    list-style: none;
+    margin-right: 5px;
+    display: inline-block;
+ }  
+
+ .pay_button{
+     display: flex;
+     justify-content: center;
+     padding-top: 30px;
+ }
+
+ .pay_button button{
+    height: 46px;
+    line-height: 46px;
+    font-weight: 500;
+    border: none;
+    padding: 0 70px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    border-radius: 23px;
+    transition: 3s;
+    background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
+ }
+
+ .pay_button button:hover{
+    background: white;
+    color: black;
+    border: none;
+ }
+
+ /* tickets css end */
